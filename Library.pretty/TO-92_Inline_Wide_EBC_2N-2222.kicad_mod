@@ -1,0 +1,264 @@
+(footprint "TO-92_Inline_Wide_EBC_2N-2222"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf), Alternate KiCad Library")
+	(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
+	(property "Reference" "Q2"
+		(at 2.54 -3.56 0)
+		(layer "F.SilkS")
+		(uuid "176236ea-8457-4098-8a19-1911bb7d0086")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2N2222A-TO92"
+		(at 2.54 2.79 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cf6c1a9-43e2-4fab-b937-d797b4c47a40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.tme.eu/Document/f56ae9fa05736feb390d26bab71fb0d5/2n2222a.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e06a4f7-8691-4ab6-8bb9-220d07d33bd8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "NPN TO-92 transistor, 40V, 0.6A, 625mW, Alternate KiCAD Library"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81026a79-b956-4583-80f6-ae0a68641022")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 0.74 1.85)
+		(end 4.34 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd665310-5502-4f99-966a-5311e301dda3")
+	)
+	(fp_arc
+		(start 0.1836 -1.098807)
+		(mid 1.143021 -2.192817)
+		(end 2.54 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd726472-3638-4a36-9fda-c82d026662b8")
+	)
+	(fp_arc
+		(start 0.74 1.85)
+		(mid 0.446097 1.509328)
+		(end 0.215816 1.122795)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02069308-600c-4e67-b94c-e563cdf00428")
+	)
+	(fp_arc
+		(start 2.54 -2.6)
+		(mid 3.936979 -2.192818)
+		(end 4.8964 -1.098807)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1b374a9-6e53-4704-8b60-d79c6a321886")
+	)
+	(fp_arc
+		(start 4.864184 1.122795)
+		(mid 4.633903 1.509328)
+		(end 4.34 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "485f5406-b602-4504-9992-7e7f042532e3")
+	)
+	(fp_line
+		(start -1.01 -2.73)
+		(end -1.01 2.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd01d951-9faf-4e9f-a804-396785ca22a6")
+	)
+	(fp_line
+		(start -1.01 -2.73)
+		(end 6.09 -2.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "94ef0c44-e1a6-47e2-8fe5-a9d303f726a1")
+	)
+	(fp_line
+		(start 6.09 2.01)
+		(end -1.01 2.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "42d7895e-d72a-4ad8-89e7-2cf64501bd3e")
+	)
+	(fp_line
+		(start 6.09 2.01)
+		(end 6.09 -2.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa380841-4586-400b-a2c6-713eb58c9196")
+	)
+	(fp_line
+		(start 0.8 1.75)
+		(end 4.3 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4074ee2f-fa00-432d-a8d6-06e6c296395d")
+	)
+	(fp_arc
+		(start 0.786375 1.753625)
+		(mid 0.248779 -0.949055)
+		(end 2.54 -2.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e27f8894-9f18-4bfd-b583-5f036e46eefd")
+	)
+	(fp_arc
+		(start 2.54 -2.48)
+		(mid 4.831221 -0.949055)
+		(end 4.293625 1.753625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea826d4b-a488-4e41-b5f1-888365db379e")
+	)
+	(fp_text user "C"
+		(at 5.461 -1.524 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1d1f2269-cf69-4a3e-a991-a60245a1cdb9")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "E"
+		(at -0.381 -1.524 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b395c114-a776-4ccb-959f-c12bb4459e26")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "B"
+		(at 2.54 -1.524 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ddeb9895-98ce-421e-8842-8d1412901fc4")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 0 0)
+		(layer "F.Fab")
+		(uuid "665d5929-bb22-44cb-aafe-64c954067a1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0 90)
+		(size 2 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "37fbbe86-851b-461e-8dd7-a930289a1852")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0 90)
+		(size 2 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f6f5b775-250c-42ef-b543-9172cff12e4b")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0 90)
+		(size 2 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9202756d-4d8a-4ca4-b69c-e2c5221be86b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
